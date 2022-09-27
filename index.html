@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pro Lens</title>
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon"/>
+    <meta name="description" content="Welcome to Pro Lens - the best eyewear retailer in the country."/>
+    <meta name="keywords" content="glasses, perscription, eyewear, eyes, Pro Lens"/>
+    <meta name="author" content="Stevan Zubovic"/>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/tooplate-style.css" />
+    <script src="js/bootstrap.min.js"></script>
+
+  </head>
+
+  <body>
+    <!-- page header -->
+    <div class="container" id="home">
+      <div class="col-12 text-center">
+        <div class="tm-page-header">
+          <i class="far  fa-4x fa-eye mr-4"></i>
+          
+          <a href="#"><h1 class="d-inline-block text-uppercase">Pro Lens</h1></a>
+        </div>
+      </div>
+    </div>
+    <!-- navbar -->
+    <div class="tm-nav-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-md navbar-light">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#tmMainNav"
+                aria-controls="tmMainNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="tmMainNav">
+                <ul class="navbar-nav mx-auto tm-navbar-nav, navLinks" >
+                
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- Slider -->
+    <!-- <div id="slider">
+      <img src="img/glasses1.jpg" alt="black rimmed pair of glasses" id="slider-image">
+    </div> -->
+    <!-- Features -->
+    <div class="container" id="GlassesGallery">   
+      <div class="image-area">
+          
+      </div>
+    </div>
+
+    <!-- Activities -->
+    <div class="container" id="Services">
+  
+    </div>
+
+    <section class="container tm-company-section" id="company">
+      <div class="row">
+        <div class="col-xl-9 col-lg-8 col-md-12 tm-company-left">
+          <div class="tm-company-about">
+            <div class="tm-company-img-container">
+              <img src="img/interior.jpg" alt="Image" />
+            </div>
+            <div class="tm-company-about-text">
+              <header>
+                <h2 class="tm-company-about-header">Our Company</h2>
+              </header>
+              <p>
+                Pro Lens was founded in 1987 by Howard R. Baudrillard with the intention to provide cheap eyewear for the residents of our beloved city.
+              </p>
+              <p class="mb-4">
+               Nowdays it we're the cecond largest eyewear retailer in the country with more than twenty stores across the nation! Come down to our downtown location if you are in need of affordable, yet excellent quality, eyewear.
+              </p>  
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-xl-9 col-lg-4 col-md-12 tm-company-right  ml-lg-auto mr-lg-0"
+        >
+          <div class="tm-company-right-inner">
+            <ul class="nav nav-tabs" id="tmCompanyTab" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link tm-nav-link-border-right active"
+                  id="vision-tab"
+                  data-toggle="tab"
+                  href="#vision"
+                  role="tab"
+                  aria-controls="vision"
+                  aria-selected="true"
+                  >Vision</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link tm-no-border-right"
+                  id="mission-tab"
+                  data-toggle="tab"
+                  href="#mission"
+                  role="tab"
+                  aria-controls="mission"
+                  aria-selected="false"
+                  >Mission</a
+                >
+              </li>
+            </ul>
+            <div class="tab-content" id="tmTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="vision"
+                role="tabpanel"
+                aria-labelledby="vision-tab"
+              >
+                <p>
+                 Our vision is to make your vision the best it can be!
+                </p>
+                <p>
+                  We are devoted to improving your quality of life with our high quality glasses.
+                </p>
+                <p>
+                  Good eyesight while looking stylish!
+                </p>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="mission"
+                role="tabpanel"
+                aria-labelledby="mission-tab"
+              >
+                <p>
+                  Bringing the latest tachnology to our shelves and your eyes!
+                </p>
+                <p>
+                  Hopefully world domination through low prices.
+                </p>
+                <p>
+                  Providing our employees with the best working conditions possible.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section class="container tm-contact-section" id="contact">
+      <div class="row">
+        <div class="col-xl-5 col-lg-6 col-md-12 tm-contact-left">
+          <div class="tm-contact-form-container ml-auto mr-0">
+            <header>
+              <h2 class="tm-contact-header">Contact Us</h2>
+            </header>
+            <form action="index.html" class="tm-contact-form" method="POST">
+              <div class="form-group">
+                <label for="contact_name" id="nameLabel"></label>
+                <input type="text" id="contact_name" name="contact_name1" class="form-control" placeholder="Name" />
+              </div>
+              <label for="contact_email" id="emailLabel"></label>
+              <div class="form-group">
+                <input type="text"  id="contact_email" name="contact_email1" class="form-control" placeholder="Email" />       
+              </div>
+              <div class="form-group">
+                <label for="contact_message" id="msgLabel"></label>
+                <textarea
+                  rows="5"
+                  id="contact_message"
+                  name="contact_message1"
+                  class="form-control"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <span id="msg" class="text-success"></span>
+                <button type="button" class="btn tm-btn tm-btn-big" id="button">
+                  Send It
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-xl-7 col-lg-6 col-md-12 tm-contact-right">
+          <div class="tm-contact-figure-block">
+            <div class="d-inline-block">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.220530080196!2d20.474744212129824!3d44.75479136080778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a71050a009d83%3A0x377e8062e0e0ea49!2sPro%20Lens!5e0!3m2!1sen!2srs!4v1607893165458!5m2!1sen!2srs" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="container tm-footer">
+      <div>
+        <a href="sitemap.txt">
+          <i class="fa fa-2x fa-sitemap" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div class="row tm-footer-row">
+        <p class="col-md-10 col-sm-12 mb-0">
+          Copyright &copy; Pro Lens
+        </p>
+          <div class="col-md-2 col-sm-12 scrolltop">
+            <a href="#">
+              <div class="scroll icon">
+                <i class="fa fa-4x fa-angle-up"></i>
+              </div>
+            </a>
+        </div>
+      
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+    
+    
+  </body>
+</html>
+
